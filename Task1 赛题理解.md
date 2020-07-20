@@ -31,7 +31,7 @@ train_df.head()
 ## 解题思路
 赛题思路分析：对匿名字符进行建模，进而完成文本分类的过程。由于文本数据是一种典型的非结构化数据，因此可能涉及到特征提取和分类模型两个部分。</br>
 - 1.思路一：TF-IDF+机器学习分类器 </br>
-    TF-IDF：[TF-IDF原理及使用](https://blog.csdn.net/zrc199021/article/details/53728499)
+    TF-IDF：[TF-IDF原理及使用](https://blog.csdn.net/zrc199021/article/details/53728499) </br>
     机器学习分类器：[SVM](https://www.jb51.net/article/131580.htm)、[LR](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression)或者[XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 
 - 2.思路二：FastText
