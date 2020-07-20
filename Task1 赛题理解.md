@@ -35,15 +35,16 @@ train_df.head()
     TF-IDF：[TF-IDF原理及使用](https://blog.csdn.net/zrc199021/article/details/53728499) </br>
     机器学习分类器：[SVM](https://www.jb51.net/article/131580.htm)、[LR](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html#sklearn.linear_model.LogisticRegression)或者[XGBoost](https://www.analyticsvidhya.com/blog/2016/03/complete-guide-parameter-tuning-xgboost-with-codes-python/)
 
-- 2.思路二：FastText
+- 2.思路二：FastText</br>
     [fastText原理](https://zhuanlan.zhihu.com/p/32965521)、[fastText实战](https://zhuanlan.zhihu.com/p/32965521)
 
-- 3.思路三：WordVec+深度学习分类器
-    WordVec:[word2vec 中的数学原理详解](https://www.cnblogs.com/peghoty/p/3857839.html)、[word2vec的安装与使用](https://www.jianshu.com/p/4714b46f207c)、[word2vec在python中的使用](https://nbviewer.jupyter.org/github/danielfrg/word2vec/blob/master/examples/word2vec.ipynb)</br>
-    深度学习分类的网络结构：
+- 3.思路三：WordVec+深度学习分类器</br>
+    WordVec:</br>
+    [word2vec 中的数学原理详解](https://www.cnblogs.com/peghoty/p/3857839.html)、[word2vec的安装与使用](https://www.jianshu.com/p/4714b46f207c)、[word2vec在python中的使用](https://nbviewer.jupyter.org/github/danielfrg/word2vec/blob/master/examples/word2vec.ipynb)</br>
+    深度学习分类的网络结构：</br>
     TextCNN：[文本分类算法TextCNN原理详解(一)](https://www.cnblogs.com/ModifyRong/p/11319301.html)、[pytorch实现textCNN](https://blog.csdn.net/qq_25037903/article/details/85058217)、[基于tensorflow的代码实现](https://blog.csdn.net/John_xyz/article/details/79210088)</br>
     TextRNN:[TextRNN用于文本分类](https://www.jianshu.com/p/19fd7206f070)</br>
     BiLSTM:[BiLSTM介绍及代码实现](https://www.jiqizhixin.com/articles/2018-10-24-13)
 
-- 4.思路四：Bert词向量
+- 4.思路四：Bert词向量</br>
     [BERT中的词向量指南](https://blog.csdn.net/u011984148/article/details/99921480)
