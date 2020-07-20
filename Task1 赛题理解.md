@@ -39,10 +39,10 @@ train_df.head()
     [fastText原理](https://zhuanlan.zhihu.com/p/32965521)、[fastText实战](https://zhuanlan.zhihu.com/p/32965521)
 
 - 3.思路三：WordVec+深度学习分类器
-    WordVec:[word2vec 中的数学原理详解](https://www.cnblogs.com/peghoty/p/3857839.html)、[word2vec的安装与使用](https://www.jianshu.com/p/4714b46f207c)、[word2vec在python中的使用](https://nbviewer.jupyter.org/github/danielfrg/word2vec/blob/master/examples/word2vec.ipynb)
+    WordVec:[word2vec 中的数学原理详解](https://www.cnblogs.com/peghoty/p/3857839.html)、[word2vec的安装与使用](https://www.jianshu.com/p/4714b46f207c)、[word2vec在python中的使用](https://nbviewer.jupyter.org/github/danielfrg/word2vec/blob/master/examples/word2vec.ipynb)</br>
     深度学习分类的网络结构：
-    TextCNN：[文本分类算法TextCNN原理详解(一)](https://www.cnblogs.com/ModifyRong/p/11319301.html)、[pytorch实现textCNN](https://blog.csdn.net/qq_25037903/article/details/85058217)、[基于tensorflow的代码实现](https://blog.csdn.net/John_xyz/article/details/79210088)
-    TextRNN:[TextRNN用于文本分类](https://www.jianshu.com/p/19fd7206f070)
+    TextCNN：[文本分类算法TextCNN原理详解(一)](https://www.cnblogs.com/ModifyRong/p/11319301.html)、[pytorch实现textCNN](https://blog.csdn.net/qq_25037903/article/details/85058217)、[基于tensorflow的代码实现](https://blog.csdn.net/John_xyz/article/details/79210088)</br>
+    TextRNN:[TextRNN用于文本分类](https://www.jianshu.com/p/19fd7206f070)</br>
     BiLSTM:[BiLSTM介绍及代码实现](https://www.jiqizhixin.com/articles/2018-10-24-13)
 
 - 4.思路四：Bert词向量
