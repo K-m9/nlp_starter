@@ -44,6 +44,29 @@ train_df.head()
 train_df['text_len'] = train_df['text'].apply(lambda x: len(x.split(' ')))
 print(train_df['text_len'].describe())
 ```
+结果如下：<br>
+Populating the interactive namespace from numpy and matplotlib<br>
+count    200000.000000<br>
+mean        907.207110<br>
+std         996.029036<br>
+min           2.000000<br>
+25%         374.000000<br>
+50%         676.000000<br>
+75%        1131.000000<br>
+max       57921.000000<br>
+Name: text_len, dtype: float64<br>
+由结果可得出，该20w条新闻平均含907个字符,最短的新闻有2个字符，最长的新闻有57921个字符。<br><br>
+绘制直方图分析句子长度分布情况：
+```python
+_ = plt.hist(train_df['text_len'], bins=200)
+plt.xlabel('Text char count')
+plt.title("Histogram of char count")
+```
+![直方图]()
 
+#### 2.新闻类别分布
+
+
+#### 3.字符分布统计
 
 
