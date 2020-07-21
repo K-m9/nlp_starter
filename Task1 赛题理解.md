@@ -20,7 +20,7 @@
   2. text：通过收集并字符级别匿名处理得到互联网上的新闻</br>
 
 ## 数据读取
-``` c++
+``` python3
 train_df=pd.read_csv('./train_set.csv/train_set.csv',sep='\t')
 train_df.head()
 ```
