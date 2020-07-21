@@ -30,7 +30,7 @@ train_df.head()
 - 对文本进行jieba分词
 - 去除停用词
 - 将文本转为tfidf向量并输入到算法中<br>
-由于数据集已进行字符化处理，可以直接进行下一步工作。
+*注：由于数据集已进行字符化处理，可以直接进行下一步工作。*
 
 ### 描述性统计
 - 1.赛题数据中，新闻文本的长度是多少？
@@ -38,7 +38,12 @@ train_df.head()
 - 3.赛题数据中，字符分布是怎么样的？
 
 #### 1.句子长度分析
-
+在赛题数据中每行句子的字符使用空格进行隔开，所以可以直接统计单词的个数来得到每个句子的长度。统计并如下：
+```python
+%pylab inline
+train_df['text_len'] = train_df['text'].apply(lambda x: len(x.split(' ')))
+print(train_df['text_len'].describe())
+```
 
 
 
