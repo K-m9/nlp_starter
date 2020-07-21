@@ -12,6 +12,7 @@
 ```python
 import pandas as pd
 train_df = pd.read_csv('./train_set.csv/train_set.csv', sep='\t', nrows=100)
+train_df.head()
 ```
 
 
