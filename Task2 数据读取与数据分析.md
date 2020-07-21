@@ -62,7 +62,7 @@ _ = plt.hist(train_df['text_len'], bins=200)
 plt.xlabel('Text char count')
 plt.title("Histogram of char count")
 ```
-![直方图]()
+![直方图](F:\竞赛\天池\nlp零基础入门\images\直方图.png)
 
 #### 2.新闻类别分布
 
@@ -70,3 +70,10 @@ plt.title("Histogram of char count")
 #### 3.字符分布统计
 
 
+## 本章作业
+- 1.假设字符3750，字符900和字符648是句子的标点符号，请分析赛题每篇新闻平均由多少个句子构成？
+- 2.统计每类新闻中出现次数对多的字符
+
+### 1.分析赛题每篇新闻平均由多少个句子构成
+
+ 
