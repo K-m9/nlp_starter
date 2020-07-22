@@ -81,7 +81,12 @@ all_lines.count('900')+all_lines.count('648')+all_lines.count('3750')
 ### 2.统计每类新闻中出现次数对多的字符
 ```python
 from collections import Counter
-print(train_df.groupby('label').text.apply(lambda x: sorted(Counter(' '.join(list(x)).split(" ")).items(), key=lambda d:d[1], reverse = True)))
-#此代码参考https://github.com/iooops/Datawhale-NLP-/blob/master/Task2.ipynb
-···
+for text in train_df.groupby('label').text:
+#     print(text)
+    all_liness = ''.join(map(str,list(text)))
+    word_count = Counter(all_lines.split(" "))
+    word_count = sorted(word_count.items(), key=lambda d:d[1], reverse = True) 
+    print(word_count[0])
+#此代码参考(https://github.com/iooops/Datawhale-NLP-/blob/master/Task2.ipynb)
+```
  
