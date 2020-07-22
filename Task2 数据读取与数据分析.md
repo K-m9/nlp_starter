@@ -30,7 +30,6 @@ train_df.head()
 - 对文本进行jieba分词
 - 去除停用词
 - 将文本转为tfidf向量并输入到算法中<br>
-*注：由于数据集已进行字符化处理，可以直接进行下一步工作。*
 
 ### 描述性统计
 - 1.赛题数据中，新闻文本的长度是多少？
@@ -75,5 +74,14 @@ plt.title("Histogram of char count")
 - 2.统计每类新闻中出现次数对多的字符
 
 ### 1.分析赛题每篇新闻平均由多少个句子构成
+```python
+all_lines.count('900')+all_lines.count('648')+all_lines.count('3750')
+```
 
+### 2.统计每类新闻中出现次数对多的字符
+```python
+from collections import Counter
+print(train_df.groupby('label').text.apply(lambda x: sorted(Counter(' '.join(list(x)).split(" ")).items(), key=lambda d:d[1], reverse = True)))
+#此代码参考https://github.com/iooops/Datawhale-NLP-/blob/master/Task2.ipynb
+···
  
